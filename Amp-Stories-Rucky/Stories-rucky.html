@@ -233,6 +233,12 @@
   <amp-story-social-share layout="nodisplay" i-amphtml-layout="nodisplay"><script type="application/json">{"shareProviders":[{"provider":"twitter"},{"provider":"linkedin"},{"provider":"email"},{"provider":"system"}]}</script>
  </amp-story-social-share>
   
-  <canvas height="3" width="3" style="width: 100% !important; height: 100% !important; position: absolute !important; left: 0px !important; top: 0px !important;"></canvas><amp-story-share-menu></amp-story-share-menu><div></div><div><button aria-label="Next page"></button></div><div><button aria-label="Previous page"></button></div></amp-story>
+  <canvas id="Canvas" height="3" width="3" style="width: 100% !important; height: 100% !important; position: absolute !important; left: 0px !important; top: 0px !important;"></canvas>
+  <script type="text/javascript">
+var c=document.getElementById("Canvas");
+var ctx=c.getContext("2d");
+ctx.fillStyle="#7F7F00";
+ctx.fillRect(0,0,150,100);
+</script><amp-story-share-menu></amp-story-share-menu><div></div><div><button aria-label="Next page"></button></div><div><button aria-label="Previous page"></button></div></amp-story>
 	</body>
 </html>
