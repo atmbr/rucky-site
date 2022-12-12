@@ -29,7 +29,20 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
-  }
+}
+.background-color-storiespace{
+background-color:#a200ff;
+ }
+#hero-post {
+    margin: 1rem !important;
+}
+.storie-margin{
+padding: 0px 0px 15px 0px;
+}
+.title-wrap {
+    margin: 20px 30px 16px !important;
+    padding: 0px 60px 0px 0px !important;
+}
   body-storie {
     min-height: 100vh;
     display: flex;
@@ -59,7 +72,7 @@
       margin: 0;
   }
   .title-wrap>a.wt-l{
-    color: #fff;
+    color: #fff !important;
     background: #a200ff;
     border-radius: 4px;
     padding: 12px 22px;
