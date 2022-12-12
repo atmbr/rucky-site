@@ -29,20 +29,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
-}
-.background-color-storiespace{
-background-color:#a200ff;
- }
-#hero-post {
-    margin: 1rem !important;
-}
-.storie-margin{
-padding: 0px 0px 15px 0px;
-}
-.title-wrap {
-    margin: 20px 30px 16px !important;
-    padding: 0px 60px 0px 0px !important;
-}
+  }
   body-storie {
     min-height: 100vh;
     display: flex;
@@ -65,14 +52,14 @@ padding: 0px 0px 15px 0px;
   .title-wrap>a.wt-l{
     color:white;
   }
-  #ticker-wrapper{
+  .background-color-storiespace{
       background-color:#a200ff;
   }
     .content-section .widget{
       margin: 0;
   }
   .title-wrap>a.wt-l{
-    color: #fff !important;
+    color: #fff;
     background: #a200ff;
     border-radius: 4px;
     padding: 12px 22px;
@@ -98,6 +85,9 @@ padding: 0px 0px 15px 0px;
     transition: all .3s ease 0s;
     -webkit-transition: all .3s ease 0s;
     -moz-transition: all .3s ease 0s;
+  }
+  .row-x1{
+    max-width: 100% ;
   }
   .wt-l-0:after{
     content: "\F138";
@@ -177,7 +167,72 @@ padding: 0px 0px 15px 0px;
   }
   
   @media screen and (max-width: 768px) {
-    .swiper-navBtn {
-      display: none;
+    .swiper-button-next{
+      color: #000 !important;
+      height: 40px !important;
+      width: 40px !important;
+      background: #fff !important;
+      border-radius: 50% !important;
+      background-color: transparent !important;
+      display: block !important;
+      position: absolute !important;
+      right: 10px !important;
+      left: auto !important;
+      bottom: -5% !important;
+      top: 100% !important;
+  }
+    .swiper-button-next:after{
+      content: "\F138" !important;
+      color: #ffffff !important;
+      width: 10% !important;
+      height: 10% !important;
+      font-family: bootstrap-icons !important;
+      font-size: large !important;
+      padding: 0px 0px 0px 5px !important;
+      top: 100% !important;
+    }
+    .swiper-button-prev{
+      color: #000 !important;
+      height: 40px !important;
+      width: 40px !important;
+      background: #fff !important;
+      border-radius: 50% !important;
+      background-color: transparent !important;
+      display: block !important;
+      position: absolute !important;
+      right: auto !important;
+      left: auto !important;
+      bottom: -5% !important;
+      top: 100% !important;
+  
+  }
+    .swiper-button-prev:after{
+      content: "\F12F" !important;
+      color: #ffffff !important;
+      width: 10% !important;
+      height: 10% !important;
+      font-family: bootstrap-icons !important;
+      font-size: large !important;
+      padding: 0px 0px 0px 5px !important;
+      top: 100% !important;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .slide-container{
+      margin: 0 80px;
+    overflow: visible !important;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .swiper-slide{
+      width: 60% !important;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .position-text{
+      padding: 0px 8px 20px 12px;
+      color: white;
+      font-size: 15px;
+      letter-spacing: 0.05rem;
     }
   }
