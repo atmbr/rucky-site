@@ -29,5 +29,11 @@ var swiper = new Swiper(".slide-container", {
     1000: {
       slidesPerView: 4,
     },
-  },
-});
+  autoplay: {
+      delay: 5000,
+      disableOnInteraction: true
+    },
+    freeMode: true,
+    speed: 400,
+    freeModeMomentum: false
+  });
